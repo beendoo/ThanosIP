@@ -43,16 +43,16 @@
 - Database : Mariadb
 - Collab Tool : Github
 ### 개발과정
-- 크롤러
+1. 크롤러
  - IP list Download
  - IP Search
-- Server
+2. Server
  - API 명세서
 ## ISSUES
-- 수상한 공격 로그탐지
+1. 수상한 공격 로그탐지
  - 의논 결과 봇넷 공격으로 판단
  - nginx 서버를 프록시로 두어 https 보안강화 및 Modsecurity 적용
-- AWS 인스턴스 접속불가 현상
+2. AWS 인스턴스 접속불가 현상
  - 의논 결과 용량 초과로 인한 서버 다운 현상임을 파악
  - 서비스 변경 고려 및 사용가능한 서버 옵션 조사 후 추가결제로 서버 확장을 통해 해결
 ## 개선사항
